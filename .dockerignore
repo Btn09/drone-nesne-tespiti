@@ -1,0 +1,8 @@
+.venv/
+data/
+runs/
+__pycache__/
+.git/
+reports/
+tests/
+ornekler/
