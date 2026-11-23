@@ -1,0 +1,47 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "olcumler": [
+    {
+      "model": "yolo11s_640",
+      "imgsz": 640,
+      "bicim": "PyTorch FP32 (GPU)",
+      "ms": 8.8,
+      "fps": 113.2
+    },
+    {
+      "model": "yolo11s_640",
+      "imgsz": 640,
+      "bicim": "PyTorch FP16 (GPU)",
+      "ms": 6.1,
+      "fps": 162.7
+    },
+    {
+      "model": "yolo11s_640",
+      "imgsz": 640,
+      "bicim": "ONNX Runtime (CPU)",
+      "ms": 21.7,
+      "fps": 46.1
+    },
+    {
+      "model": "yolo11s_1024",
+      "imgsz": 1024,
+      "bicim": "PyTorch FP32 (GPU)",
+      "ms": 9.8,
+      "fps": 102.2
+    },
+    {
+      "model": "yolo11s_1024",
+      "imgsz": 1024,
+      "bicim": "PyTorch FP16 (GPU)",
+      "ms": 7.3,
+      "fps": 137.2
+    },
+    {
+      "model": "yolo11s_1024",
+      "imgsz": 1024,
+      "bicim": "ONNX Runtime (CPU)",
+      "ms": 71.4,
+      "fps": 14.0
+    }
+  ]
+}

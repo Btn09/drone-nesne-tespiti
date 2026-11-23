@@ -1,0 +1,7 @@
+model,imgsz,bicim,ms,fps
+yolo11s_640,640,PyTorch FP32 (GPU),8.8,113.2
+yolo11s_640,640,PyTorch FP16 (GPU),6.1,162.7
+yolo11s_640,640,ONNX Runtime (CPU),21.7,46.1
+yolo11s_1024,1024,PyTorch FP32 (GPU),9.8,102.2
+yolo11s_1024,1024,PyTorch FP16 (GPU),7.3,137.2
+yolo11s_1024,1024,ONNX Runtime (CPU),71.4,14.0
