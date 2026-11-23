@@ -1,0 +1,10 @@
+.venv/
+data/
+runs/
+__pycache__/
+.pytest_cache/
+.gradio/
+models/*.onnx
+yolo11s.pt
+yolo11n.pt
+*.cache

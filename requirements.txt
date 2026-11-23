@@ -1,0 +1,16 @@
+torch>=2.4
+torchvision>=0.19
+ultralytics>=8.3
+pycocotools
+opencv-python
+numpy
+pandas
+pillow
+onnx
+onnxruntime-gpu
+fastapi
+uvicorn
+python-multipart
+gradio
+pytest
+httpx
